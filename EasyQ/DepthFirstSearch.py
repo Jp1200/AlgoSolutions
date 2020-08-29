@@ -2,7 +2,8 @@
 # go as deep as possible for each branch
 # time/space complexity based on O(v+e ) vertivces plus edges
 # edges are the node/vertices connections
-
+# Time is O(v+e) and space is O(v) because the frame of the code stack is storing the
+# the traversed nodes.
 class Node:
     def __init__(self, name):
         self.children = []
