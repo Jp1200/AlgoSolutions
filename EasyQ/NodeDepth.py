@@ -6,9 +6,11 @@ def nodeDepths(root, depth=0):
 # simple if case if the tree is empty there is no depth to it
 # Recursivly iterate through the function where we return the init depth of 0 + func(leftofroot)+func(rightofroot)
 # when you run the func again with the root.right/left if it isnt none you dont return 0 instead you add 1 to depth
-
+# time complexity is O(n) where n is nodes and space complexity is O(h) where h is te height of the tree.
 
 # This is the class of the input binary tree.
+
+
 class BinaryTree:
     def __init__(self, value):
         self.value = value
