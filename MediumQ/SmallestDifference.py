@@ -4,8 +4,8 @@ def smallestDifference(arrayOne, arrayTwo):
     pointer1 = 0
     pointer2 = 0
     current = float("inf")
-     smallest = float("inf")
-      smallestPair = []
+    smallest = float("inf")
+    smallestPair = []
        while (pointer1 < len(arrayOne)) and (pointer2 < len(arrayTwo)):
             num1 = arrayOne[pointer1]
             num2 = arrayTwo[pointer2]
