@@ -20,11 +20,8 @@ def twoNumberSumHash(array, targetSum):
             # so if y is in the hash via this py function return the numbers
 			return [y,x]
 		else:
-            # if it doesnt then store it as true 
-			hash[x] = True
-	return []	
-    pass
-# Hash Solution which has O(n) complexity wh
+                        hash[x] = True
+                    # Hash Solution which has O(n) complexity wh
 def twoNumberSum(array, targetSum):
     hash = {}
 	for x in array:
